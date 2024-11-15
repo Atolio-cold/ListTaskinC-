@@ -28,6 +28,8 @@ class ListTask
             }
         }
 
+        list.Sort();
+
         // Wyświetlamy wszystkie dodane miasta
         Console.WriteLine("\nWszystkie miasta:");
         foreach (var city in list)
